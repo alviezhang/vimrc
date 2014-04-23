@@ -9,3 +9,8 @@ How to use it
 Run command
 
     ./makelink.sh
+
+Warning
+-------
+
+run above command will remove your own vim configuration such as `~/.vimrc` and `~/.vim`
