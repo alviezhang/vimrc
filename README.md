@@ -10,7 +10,7 @@ Run command
 
     ./makelink.sh
 
-Warning
--------
+Tips
+----
 
-run above command will remove your own vim configuration such as `~/.vimrc` and `~/.vim`
+If you want to use this configuration, please remove your `~/.vimrc` and `~/.vim` files first.
