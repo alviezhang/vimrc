@@ -8,7 +8,7 @@ How to use it
 
 Run command
 
-    ./makelink.sh
+    ./install.sh
 
 Tips
 ----
