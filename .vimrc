@@ -19,7 +19,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
-#Plugin 'klen/python-mode'
+"Plugin 'klen/python-mode'
 Plugin 'bling/vim-airline'
 Plugin 'L9'
 
