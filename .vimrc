@@ -1,13 +1,13 @@
 "
-
-" =============================
-" =============================
-" vundle required configuration
-" =============================
-" =============================
-
 set fileencodings=utf8,gb18030,gbk,gb2312,big5
 set number
+
+" =============================
+" =============================
+" Vundle required configuration
+" =============================
+" =============================
+
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -70,10 +70,6 @@ set autoread
 " like <leader>w saves the current file
 let mapleader = ","
 let g:mapleader = ","
-
-" Fast saving
-nmap <leader>w :w!<cr>
-
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
