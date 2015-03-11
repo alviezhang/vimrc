@@ -6,6 +6,7 @@
 " =============================
 " =============================
 
+set fileencodings=utf8,gb18030,gbk,gb2312,big5
 set number
 set nocompatible              " be iMproved, required
 filetype off                  " required
