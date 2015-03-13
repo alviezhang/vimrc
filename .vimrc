@@ -20,8 +20,9 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
-"Plugin 'klen/python-mode'
+Plugin 'klen/python-mode'
 Plugin 'bling/vim-airline'
+Plugin 'matrix.vim--Yang'
 Plugin 'L9'
 
 " The sparkup vim script is in a subdirectory of this repo called vim.
@@ -57,7 +58,7 @@ filetype plugin indent on    " required
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Sets how many lines of history VIM has to remember
-set history=700
+set history=800
 
 " Enable filetype plugins
 filetype plugin on
