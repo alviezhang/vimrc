@@ -8,8 +8,8 @@ Plugins
 
 * [Vundle][] plugin manager
 * [vim-fugitive][] vim git plugin
-* [vim-airline][] a nice status bar
-* [matrix.vim][] screensaver
+* [vim-airline][] a awesome status bar
+* [matrix.vim][] a good screensaver
 
 [Vundle]: https://github.com/gmarik/Vundle.vim
 [vim-fugitive]: https://github.com/tpope/vim-fugitive
