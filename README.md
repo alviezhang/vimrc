@@ -22,9 +22,12 @@ How to use it
 
 Run command
 
-    ./install.sh
+    make install
 
 Tips
 ----
 
-If you want to use this configuration, please remove your `~/.vimrc` and `~/.vim` files first.
+If you want to use this vim configuration, please remove your `~/.vimrc` and `~/.vim` files first, or you just run (*THIS WILL DELETE YOUR OWN VIM CONFIGURATION FILES*):
+
+    make clean
+
