@@ -1,19 +1,17 @@
 #!/bin/sh
 
-rm -rf .vim/bundle/
-
 if [ -f ~/.vimrc ]; then
     echo "~/.vimrc exits, please remove it first!"
+    exit 1
 else
-    path=`pwd`/.vimrc
-    ln -s $path ~/.vimrc
+    cp vimrc ~/.vimrc
 fi
 
 if [ -f ~/.vim ]; then
     echo "~/.vim exits, please remove it first!"
+    exit 1
 else
-    path=`pwd`/.vim
-    ln -s $path ~/.vim
+    mkdir ~/.vim
 fi
 
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
