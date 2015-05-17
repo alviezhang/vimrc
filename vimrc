@@ -24,6 +24,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'bling/vim-airline'
 Plugin 'matrix.vim--Yang'
 Plugin 'L9'
+Plugin 'fatih/vim-go'
 
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
